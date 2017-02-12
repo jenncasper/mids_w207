@@ -1,0 +1,48 @@
+def P1(num_examples=10):
+# References:
+#   numpy_matplotlib_examples.ipynb
+# Time to complete dev: ~2 hrs
+
+def P2(k_values):
+# References:
+#   Nearest_Neighbors_with_questions__solution.ipynb
+#   http://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/
+# Time to complete dev: ~2.5 hrs
+
+def P3(train_sizes, accuracies):
+# Time to complete dev: ~1.5 hrs
+
+def P4():
+# References:
+#   Tutorial.ipynb
+# Time to complete dev: ~3.5hrs
+
+def P5():
+# Time to complete dev: ~4.5hrs
+
+# WARNING: preprocessing the entire data set make take up to 40 minutes
+def P6():
+# Time to complete dev: ~5hrs
+
+def P7():
+# References:
+#   Naive_Bayes_sklearn_practice_solutions.ipynb
+# Time to complete dev: ~6hr
+
+def P8(alphas):
+# References:
+#   Naive_Bayes_sklearn_practice_solutions.ipynb
+#   http://machinelearningmastery.com/how-to-tune-algorithm-parameters-with-scikit-learn/
+#   http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+#   http://cs.stackexchange.com/questions/3005/smoothing-in-naive-bayes-model
+# Time to complete dev: ~8hr
+
+def P9():
+# Time to complete dev: ~4hrs
+
+def P10(num_examples):
+# Time to complete dev: ~6hrs
+
+def P11(buckets, correct, total):
+# Time to complete dev: ~5hrs
+
