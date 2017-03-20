@@ -1,0 +1,48 @@
+what do the coef_ values represent exactly? a score for each vocab value?
+
+what does summing the squared weight values actually do?
+
+C refines how much the penalty affects the log function. There is a tension between the squared error and the penalty that is refinded by C. Regularization - read what this is.
+
+is there a way to get coef_ information when using GridSearchCV?
+
+5 features with the largest weights?
+
+- np.argsort( [ 3, 5, 2 ] )
+
+what is accuracy for P6? score of development set
+
+
+highest R ratio - easiest to see what is happening there? make suggestions on how to change? worst case words that are throwing the model off
+
+point is to fix the model? predicting label of tech or software but should be religion? higher vol of tech terms? remove some of the technical terms? 
+
+how do you consider trimming? if ftp is everywhere then drop it? get rid of ambiguou
+
+10:30PST office hours
+
+--------------------
+R ratio is predicted/correct? highest R = biggest blooper (how bad of a mistake) what were the worst mistakes? find those and figure out why to improve?
+Daniel Percival: predict_proba
+
+Daniel Percival: model.predict_proba(x)
+max(model.predict_proba(x)[0, :])
+model.predict_proba(x)[x_labs[0], :]
+
+run a loop over KNN
+
+tell feature name! in tables
+
+0.01 to 1000 skip by power of ten ->
+trim vocab using l1 and re-run using l2
+
+don't want a huge sum of squares while min Beta
+
+l2 is sum of square betas
+l1 is sum of abs value of betas
+
+negative index of argsort
+
+
+
+
