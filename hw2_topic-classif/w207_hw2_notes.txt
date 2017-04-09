@@ -4,7 +4,7 @@ what does summing the squared weight values actually do?
 
 C refines how much the penalty affects the log function. There is a tension between the squared error and the penalty that is refinded by C. Regularization - read what this is.
 
-is there a way to get coef_ information when using GridSearchCV?
+is there a way to get coef_ information when using GridSearchCV? No
 
 5 features with the largest weights?
 
@@ -42,6 +42,23 @@ l2 is sum of square betas
 l1 is sum of abs value of betas
 
 negative index of argsort
+
+
+[mean: 0.40905, std: 0.01882, params: {'knn__n_neighbors': 1}, 
+mean: 0.40315, std: 0.02001, params: {'knn__n_neighbors': 2}, 
+mean: 0.39577, std: 0.00974, params: {'knn__n_neighbors': 3}, 
+mean: 0.39971, std: 0.02267, params: {'knn__n_neighbors': 4}, 
+mean: 0.40905, std: 0.02529, params: {'knn__n_neighbors': 5}, 
+mean: 0.40364, std: 0.03466, params: {'knn__n_neighbors': 6}, 
+mean: 0.40806, std: 0.02397, params: {'knn__n_neighbors': 7}, 
+mean: 0.39479, std: 0.02727, params: {'knn__n_neighbors': 8}, 
+mean: 0.41052, std: 0.01514, params: {'knn__n_neighbors': 9}, 
+mean: 0.41347, std: 0.01946, params: {'knn__n_neighbors': 10}, 
+mean: 0.40757, std: 0.00691, params: {'knn__n_neighbors': 11}, 
+mean: 0.41495, std: 0.02038, params: {'knn__n_neighbors': 12}, 
+mean: 0.41396, std: 0.02103, params: {'knn__n_neighbors': 13}, 
+mean: 0.41544, std: 0.01685, params: {'knn__n_neighbors': 14}, 
+mean: 0.41396, std: 0.01495, params: {'knn__n_neighbors': 15}]
 
 
 
